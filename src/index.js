@@ -1,4 +1,5 @@
 import app from "./app.js"
+import {LISTEN_PORT } from './config.js'
 
-app.listen(3000)
-console.log("Servidor en puerto 3000")
+app.listen(LISTEN_PORT)
+console.log("server running in port", LISTEN_PORT)
